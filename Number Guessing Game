@@ -1,0 +1,22 @@
+console.log("Welcome To the Number Guessing Game")
+let number=Math.random()*100;
+number=parseInt(number);
+let game_is_on=true;
+let i=0;
+
+while(game_is_on){
+    let choice=prompt("Guess The Number:-")
+    i+=1;
+    choice= parseInt(choice);
+    if(number>choice){
+        console.log("Plz Enter The Higher Number....")
+    }
+    else if(number<choice){
+        console.log("Plz Enter The Lower Number.....")
+    }
+    else{
+        console.log("You Guess It Right....")
+        console.log(`You Take ${i} Number Of Turns`)
+        game_is_on=false;
+    }
+}
