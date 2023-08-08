@@ -1,0 +1,47 @@
+/* Apply styles to the body element */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Apply styles to the #first div */
+#first {
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to the .head class */
+.head {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the span element */
+span {
+    display: block;
+    width: 100%;
+    height: 40%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+button{
+    margin-top:10px ;
+    height: 35px;
+    width: 70px;
+    font-size: large;
+    color: black;
+    background-color: #e1e1e1;
+    cursor: pointer;
+
+}
